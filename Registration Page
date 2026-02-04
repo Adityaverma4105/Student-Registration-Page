@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+    <div class="box">
+        <h2>Student Registration</h2>
+
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <select id="course">
+            <option value="">Select Course</option>
+            <option>BCA</option>
+            <option>MCA</option>
+        </select>
+
+        <input type="password" id="password" placeholder="Create Password" required>
+
+        <button onclick="register()">Register</button>
+
+        <p>Already registered? <a href="login.html">Login here</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
